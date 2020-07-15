@@ -23,6 +23,8 @@ Stack2:
 
 As for an alternative full node bitcoin implementation, it properly relays newly mined blocks, maintains a transaction pool, and relays individual transactions that have not yet made it into a block. It ensures all individual transactions admitted to the pool follow the rules required by the block chain and also includes more strict checks which filter transactions based on miner requirements ("standard" transactions).
 
+Stacks URL: https://drive.google.com/file/d/1AjFelcgdltAy_4om7Qjs-vZmjvXpm6nX/view?usp=sharing
+
 ######################################
 Scenario 2:
 Google search queries:
