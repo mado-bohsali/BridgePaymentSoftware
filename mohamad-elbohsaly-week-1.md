@@ -6,6 +6,7 @@ Google search queries:
 "How to compose a technology stack"
 "What is the workflow of an ecommerce transaction"
 "What databse systems work with GoLang"
+"blockchain payment gateway stack for golang"
 
 Proposed technology stacks:
 Stack 1:
@@ -19,6 +20,8 @@ Once the nouns (resources) have been identified, then the interactions with the 
 As for authorization, the bank handles it by returning the JWT back to the merchant at the client side.
 
 Stack2:
+
+As for an alternative full node bitcoin implementation, it properly relays newly mined blocks, maintains a transaction pool, and relays individual transactions that have not yet made it into a block. It ensures all individual transactions admitted to the pool follow the rules required by the block chain and also includes more strict checks which filter transactions based on miner requirements ("standard" transactions).
 
 ######################################
 Scenario 2:
