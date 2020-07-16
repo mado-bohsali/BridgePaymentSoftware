@@ -29,6 +29,9 @@ Stacks URL: https://drive.google.com/file/d/1AjFelcgdltAy_4om7Qjs-vZmjvXpm6nX/vi
 Scenario 2:
 Google search queries:
 "GoLang scalability"
+"how to build radio application"
+"GoLang features"
+"streaming services with Golang"
 
 Proposed technology stacks:
 Stack 1:
