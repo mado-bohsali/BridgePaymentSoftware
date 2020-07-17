@@ -25,6 +25,7 @@ Stacks URL: https://drive.google.com/file/d/1AjFelcgdltAy_4om7Qjs-vZmjvXpm6nX/vi
 
 ######################################
 Scenario 2:
+
 Google search queries:
 "GoLang scalability"
 "how to build radio application"
@@ -43,10 +44,29 @@ URL: https://drive.google.com/file/d/1jWkfvjS-SdhxbQ7XJDTJ05eYEoW2-Jgg/view?usp=
 
 ######################################
 Scenario 3:
+
 Google search queries:
+"what is jwt token"
+"benefits of RESTful architecture"
+""
+""
 
 Proposed technology stacks:
 Stack 1:
 
+The application or client requests authorization to the authorization server. This is performed through one of the different authorization flows. For example, a typical OpenID Connect compliant web application will go through the /oauth/authorize endpoint using the authorization code flow.
+When the authorization is granted, the authorization server returns an access token to the application.
+The application uses the access token to access a protected resource (like an API).
+
+The outputs of authorization are three Base64-URL strings separated by dots that can be easily passed in HTML and HTTP environments, while being more compact when compared to XML-based standards such as SAML. The payload, header and signature all contribute to authorizing users.
+
+Do note that with signed tokens, all the information contained within the token is exposed to users or other parties, even though they are unable to change it. This means you should not put secret information within the token.
+
+As JSON is less verbose than XML, when it is encoded its size is also smaller, making JWT more compact than SAML. This makes JWT a good choice to be passed in HTML and HTTP environments. JSON parsers are common in most programming languages because they map directly to objects. Conversely, XML doesn't have a natural document-to-object mapping. This makes it easier to work with JWT than SAML assertions.
+
+Regarding usage, JWT is used at Internet scale. This highlights the ease of client-side processing of the JSON Web token on multiple platforms, especially mobile.
+
 
 Stack2:
+
+URL: https://drive.google.com/file/d/1S5I3LCTrYKVyxAQ2E_Cg8fNFVD_FIW67/view?usp=sharing
