@@ -1,7 +1,7 @@
 
 # Senario 1:
 
-## Google Queries:
+#### Google Queries:
 
 1- Moneris
 2- Moneris API
@@ -10,7 +10,7 @@
 5- HttpsPostRequest namespaces in C#.
 6- HttpsPostRequest namespcaes in Java.
 
-## Proposed Set 1:
+#### Proposed Set 1:
 
 1- Database: No database, manipulation with the API , No Data should be stored due to Moneris Security Requirements.
 2- Operating System: Windows since we are working with the .NET Framework.
@@ -19,7 +19,7 @@
 5- ASP.NET MVC Framework can be used with the support of RESTful webAPI 2.0 that later on CRUD can be applied by the GoLang.
 6- IDE: Visual Studio 2019 It is the best IDE for C# developers, it has many good shortcuts and code refactoring, and it has one of the powerful tool which is the Nuget Packages.
 
-## Proposed Set 2:
+#### Proposed Set 2:
 
 1- Database : No database, manipulation with the API, No data should be stored due to Moneris Security Requirements.
 2- Operating System: It can be either, MacOS, Windows, or Linux as Java is a cross platform language.
@@ -31,7 +31,7 @@
 
 # Senario 2:
 
-## Google Queries:
+#### Google Queries:
 
 1- Best Native Franmeworks for Mobile Development. 
 2- Xamarin.Forms Pros and Cons
@@ -42,7 +42,7 @@
 7- Social Media Authentication Flutter.
 
 
-## Proposed Set 1:
+#### Proposed Set 1:
 
 1- Database: MySQL because it is an open source, multi-threaded, and easy to use SQL database
 2- Operating System: Windows or MacOS in order to develop on Visual Studio 2019 IDE
@@ -51,7 +51,7 @@
 5- IDE: Visual Studio 2019 because it has a strong support for Xamarin Framework.
 6- Libraries : Xamarin.Auth for Social Media Login, 
 
-## Proposed Set 2:
+#### Proposed Set 2:
 
 1- Database: PostgreSQL because it is powerful, open source object-based, relational-database that is highly customizable.
 2- Operating System: Windows, MacOs, or Linux as Android Studio is cross platform IDE.
