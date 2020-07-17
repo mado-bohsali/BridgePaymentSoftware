@@ -15,7 +15,7 @@ The idiomatic way to use a SQL, or SQL-like, database in Go is through the datab
 
 As for the web service, resources form the nucleus of any REST API design. Resource identifiers (URI), Resource representations, API operations (using various HTTP methods), etc. are all built around the concept of Resources. It is very important to select the right resources and model the resources at the right granularity while designing the REST API so that the API consumers get the desired functionality from the APIs, the APIs behave correctly and the APIs are maintainable.
 
-Once the nouns (resources) have been identified, then the interactions with the API can be modeled as HTTP verbs against these nouns. When they don't map nicely, we could approximate. For example, we can easily use the “nouns in the domain” approach and identify low level resources such as Post, Tag, Comment, etc. in a blogging domain. Similarly, we can identify the nouns Customer, Address, Account, Teller, etc. as resources in a banking domain. As for authorization, the bank handles it by returning the JWT back to the merchant at the client side.
+Once the nouns (resources) have been identified, then the interactions with the API can be modeled as HTTP verbs against these nouns. When they don't map nicely, we could approximate. For example, we can easily use the “nouns in the domain” approach and identify low level resources. We can identify the nouns Customer, Address, Account, Teller, etc. as resources in a banking domain. As for authorization, the bank handles it by returning the JWT back to the merchant at the client side.
 
 Stack2:
 
@@ -48,8 +48,7 @@ Scenario 3:
 Google search queries:
 "what is jwt token"
 "benefits of RESTful architecture"
-""
-""
+"what is authorization"
 
 Proposed technology stacks:
 Stack 1:
