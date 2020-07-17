@@ -1,24 +1,25 @@
 Google Queries
-	choosing programming language for a project
-	Technology Stack
-	Technology stack examples
-	choosing database for web application
-	Top databases 2020
-	Kidzie
-	MOneris
-	What is an api
-	golang and moneris api issue
-	moneris api features
-	choosing api programming language
-	structured vs unstructured data
-	best programming language for financial applications
-	cross platform programming languages
-	Best IDE softwares
-	choosing libraries for project
-	cross platform programming language for mobile apps
-	phonegap vs xamarin
-	xamarin libraries for live radio feed
-	best programming language for rbac software
+- 	choosing programming language for a project
+- 	Technology Stack
+- 	Technology stack examples
+- 	choosing database for web application
+- 	Top databases 2020
+- 	Kidzie
+-   MOneris
+- 	What is an api
+- 	golang and moneris api issue
+- 	moneris api features
+- 	choosing api programming language
+- 	structured vs unstructured data
+- 	best programming language for financial applications
+- 	cross platform programming languages
+- 	Best IDE softwares
+- 	choosing libraries for project
+- 	cross platform programming language for mobile apps
+- 	phonegap vs xamarin
+- 	xamarin libraries for live radio feed
+- 	best programming language for rbac software
+
 
 
 
@@ -54,17 +55,19 @@ Proposed Set 1:
 2.	Operating system and IDE: Windows because it is compatible with C#
 3.	Programming language/languages: C# using .Net Core framework because it provides plenty of libraries for role-based access control and user authentication and authorization.
 4.	Libraries: 
-	GateKeeper to provide role-based access control and manage roles
-	ASP.Net Core 3.1 to provide authorization based on role-based access control
-	Jwt.NET to provide JWT access tokens
+- 	GateKeeper to provide role-based access control and manage roles
+- 	ASP.Net Core 3.1 to provide authorization based on role-based access control
+- 	Jwt.NET to provide JWT access tokens
+
 
 Proposed Set 2: 
 1.	Database: database/sql package available for golang
 2.	Operating system and IDE: Windows/ MacOS/ Linux because they are compatible with golang
 3.	Programming language/languages: Golang mainly because Kidzie was written in Go.
 4.	Libraries:  
-	jwt-go to provide JWT access tokens
-	lite-idp for login (username & password)
-	casbin because it provides authorization based on role-based access control
+- 	jwt-go to provide JWT access tokens
+- 	lite-idp for login (username & password)
+- 	casbin because it provides authorization based on role-based access control
+
 
 
