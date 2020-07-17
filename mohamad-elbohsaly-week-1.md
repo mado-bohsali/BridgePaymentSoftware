@@ -37,11 +37,9 @@ Stack 1:
 
 The server will get audio input from any available audio input on the server, like your Macbook’s microphone if you’re running the server on a Macbook, convert it to binary, and send out a chunked response to the client. Chunking the response in http is a way of sending out partials of data, or “chunks” of data, which is especially handy if you have a data set that is not complete yet. The library used is called Portaudio. It will handle all audio regardless of the server’s OS (OSX/Windows/Linux). Portaudio works with a main audio loop where you will do something with the audio input and output.
 
-
-Stack2:
-
 URL: https://drive.google.com/file/d/1jWkfvjS-SdhxbQ7XJDTJ05eYEoW2-Jgg/view?usp=sharing
 
+Stack2: N/A
 ######################################
 Scenario 3:
 
@@ -65,7 +63,6 @@ As JSON is less verbose than XML, when it is encoded its size is also smaller, m
 
 Regarding usage, JWT is used at Internet scale. This highlights the ease of client-side processing of the JSON Web token on multiple platforms, especially mobile.
 
-
-Stack2:
-
 URL: https://drive.google.com/file/d/1S5I3LCTrYKVyxAQ2E_Cg8fNFVD_FIW67/view?usp=sharing
+
+Stack2: N/A
