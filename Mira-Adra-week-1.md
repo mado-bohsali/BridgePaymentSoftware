@@ -30,11 +30,15 @@ Proposed Set 1:
 2.	Operating system and IDE: Windows using Netbeans IDE because it provides Java developers with all the tools needed to create professional desktop enterprise applications.
 3.	Programming language/languages: Java
 4.	Libraries: J2Pay because it is open source and supports multiple gateways using single api.
+
+
 Proposed Set 2: 
 1.	Database: PostGre SQL because it is ACID compliant and very secure which makes it a great solution for financial applications.
 2.	Operating system and IDE: Windows using Eclipse IDE because it allows Git integration and has a large number of plugins and extensions.
 3.	Programming language/languages: Ruby
-4.	Libraries: Activemerchant because it is very simple, popular for use in financial transactions, and allows us to access dozens of different payment gateways 
+4.	Libraries: Activemerchant because it is very simple, popular for use in financial transactions, and allows us to access dozens of different payment gateways. 
+
+
 Scenario 2
 Proposed Set 1: 
 1.	Database:Couchbase lite because it is highly scalable and very secure. It also provides native APIs for android and IOS.
@@ -42,6 +46,8 @@ Proposed Set 1:
 3.	Programming language/languages: Swift for IOS and Kotlin for Android
 4.	Libraries:  Android: Exoplayer because it is open source and support streaming over HTTP and smoothstreaming.
 IOS: FRadioPlayer because it allows internet radio streaming and playback.
+
+
 Proposed Set 2: 
 1.	Database: Couchbase lite because it is highly scalable and very secure. It also provides native APIs for android and IOS.
 2.	Operating system and IDE: Windows /IOS/Android 
@@ -57,7 +63,7 @@ Proposed Set 1:
 4.	Libraries: 
 - 	GateKeeper to provide role-based access control and manage roles
 - 	ASP.Net Core 3.1 to provide authorization based on role-based access control
-- 	Jwt.NET to provide JWT access tokens
+- 	Jwt.NET to provide JWT access tokens.
 
 
 Proposed Set 2: 
