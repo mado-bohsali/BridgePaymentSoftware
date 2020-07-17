@@ -66,6 +66,9 @@
 #### Google Queries:
 
 - JWT
+- use JWT in C#
+- use JWT in ASP.NET
+- JWT and Identity Framework
 
 
 #### Proposed Set 1:
