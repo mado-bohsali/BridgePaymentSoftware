@@ -9,16 +9,20 @@ Google Queries
 - 	What is an api
 - 	golang and moneris api issue
 - 	moneris api features
-- 	choosing api programming language
 - 	structured vs unstructured data
 - 	best programming language for financial applications
+
 - 	cross platform programming languages
 - 	Best IDE softwares
 - 	choosing libraries for project
 - 	cross platform programming language for mobile apps
 - 	phonegap vs xamarin
-- 	xamarin libraries for live radio feed
+- 	xamarin libraries for live radio streaming
+
 - 	best programming language for rbac software
+-   golang authorization and authentication libraries
+-   Jwt libraries for golang
+-   Jwt libraries for .Net
 
 
 
@@ -42,7 +46,7 @@ Proposed Set 2:
 Scenario 2:
 Proposed Set 1: 
 1.	Database:Couchbase lite because it is highly scalable and very secure. It also provides native APIs for android and IOS.
-2.	Operating system and IDE: IOS and Android
+2.	Operating system and IDE: IOS using Atom and Android using IntelliJ
 3.	Programming language/languages: Swift for IOS and Kotlin for Android
 4.	Libraries:  Android: Exoplayer because it is open source and support streaming over HTTP and smoothstreaming.
 IOS: FRadioPlayer because it allows internet radio streaming and playback.
@@ -50,15 +54,15 @@ IOS: FRadioPlayer because it allows internet radio streaming and playback.
 
 Proposed Set 2: 
 1.	Database: Couchbase lite because it is highly scalable and very secure. It also provides native APIs for android and IOS.
-2.	Operating system and IDE: Windows /IOS/Android 
-3.	Programming language/languages: C# and .Net 
+2.	Operating system and IDE: Windows /IOS/Android using Visual Studio Code
+3.	Programming language/languages: C#(.Net) 
 4.	Libraries: Xamarin.Forms-Music-Streaming  for online radio streaming
 5.	Platform: Xamarin because it builds cross platform apps for both IOS and Android.
 
 Scenario 3:
 Proposed Set 1: 
 1.	Database: MySQL because it is a free and open-source database system that has a huge user base and great support, and it works well with most libraries and frameworks.
-2.	Operating system and IDE: Windows because it is compatible with C#
+2.	Operating system and IDE: Windows using Visual Studio Code
 3.	Programming language/languages: C# using .Net Core framework because it provides plenty of libraries for role-based access control and user authentication and authorization.
 4.	Libraries: 
 - 	GateKeeper to provide role-based access control and manage roles
@@ -68,7 +72,7 @@ Proposed Set 1:
 
 Proposed Set 2: 
 1.	Database: database/sql package available for golang
-2.	Operating system and IDE: Windows/ MacOS/ Linux because they are compatible with golang
+2.	Operating system and IDE: Windows using Visual Studio Code
 3.	Programming language/languages: Golang mainly because Kidzie was written in Go.
 4.	Libraries:  
 - 	jwt-go to provide JWT access tokens
