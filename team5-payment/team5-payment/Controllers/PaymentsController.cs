@@ -58,11 +58,12 @@ namespace team5_payment.Controllers
 
             try
             {
+                
                 Receipt receipt = mpgReq.GetReceipt();
-                var success = receipt.GetResSuccess();
+                var response = new { Id = receipt.GetDataKey(), Success = receipt.GetResSuccess()}; 
 
-                if (success == "true")
-                    return Created(new Uri(Request.GetDisplayUrl() + "/" + receipt.GetDataKey()), saveCard);
+                if (response.Success == "true")
+                    return Created(new Uri(Request.GetDisplayUrl() + "/" + response.Id), response);
                 else
                     return BadRequest();
             }
