@@ -8,31 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Tony\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/mohamad.elbohsaly/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tony\\Desktop\\Team5-Assignment\\team5-assignment\\team5-payment\\team5-payment\\team5-payment.csproj",
+      "projectUniqueName": "/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/team5-payment.csproj",
       "projectName": "team5-payment",
-      "projectPath": "C:\\Users\\Tony\\Desktop\\Team5-Assignment\\team5-assignment\\team5-payment\\team5-payment\\team5-payment.csproj",
-      "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tony\\Desktop\\Team5-Assignment\\team5-assignment\\team5-payment\\team5-payment\\obj\\",
+      "projectPath": "/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/team5-payment.csproj",
+      "packagesPath": "/Users/mohamad.elbohsaly/.nuget/packages/",
+      "outputPath": "/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/mohamad.elbohsaly/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
       }
     }
   }
