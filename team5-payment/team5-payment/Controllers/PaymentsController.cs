@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Moneris;
 using team5_payment.Models;
@@ -19,59 +20,57 @@ namespace team5_payment.Controllers
         [HttpPost]
         public ActionResult SaveCard(SaveCard saveCard)
         {
-            string store_id = saveCard.StoreId;
-            //string store_id = "store5";
+            /*
+             * For Testing:
+             * 
+             * pan: "4242424242424242";
+             * expDate: "1912"
+             * streetNumber: "212"
+             * streetName: "Payton Street"
+             * zipCode: "M1M1M1"
+             */
+
+            //Mandatory info given by the store
+            string store_id = "store5";
             string api_token = "yesguy";
+
             string pan = saveCard.Pan;
-            //string pan = "4242424242424242";
             string expdate = saveCard.ExpDate;
-            //string expdate = "1912";
-            string phone = saveCard.Phone;
-            //string phone = "0000000000";
-            string email = saveCard.Email;
-            //string email = "bob@smith.com";
-            string note = saveCard.Note;
-            //string note = "my note";
-            string cust_id = saveCard.CustomerId;
-            //string cust_id = "customer1";
-            string crypt_type = "7";
-            string data_key_format = "0";
-            string processing_country_code = "CA";
-            bool status_check = false;
+            string crypt_type = "7"; //crypt type 7 for ecommerce
 
             AvsInfo avsCheck = new AvsInfo();
-            avsCheck.SetAvsStreetNumber("212");
-            avsCheck.SetAvsStreetName("Payton Street");
-            avsCheck.SetAvsZipCode("M1M1M1");
-
-            CofInfo cof = new CofInfo();
-            cof.SetIssuerId("168451306048014");
+            avsCheck.SetAvsStreetNumber(saveCard.StreetNumber);
+            avsCheck.SetAvsStreetName(saveCard.StreetName);
+            avsCheck.SetAvsZipCode(saveCard.ZipCode);
 
             ResAddCC resaddcc = new ResAddCC();
             resaddcc.SetPan(pan);
             resaddcc.SetExpDate(expdate);
             resaddcc.SetCryptType(crypt_type);
-            resaddcc.SetCustId(cust_id);
-            resaddcc.SetPhone(phone);
-            resaddcc.SetEmail(email);
-            resaddcc.SetNote(note);
-            resaddcc.SetAvsInfo(avsCheck);
-            resaddcc.SetGetCardType("true");
-            //resaddcc.SetDataKeyFormat(data_key_format); //optional
-            resaddcc.SetCofInfo(cof);
 
             HttpsPostRequest mpgReq = new HttpsPostRequest();
-            mpgReq.SetProcCountryCode(processing_country_code);
             mpgReq.SetTestMode(true); //false or comment out this line for production transactions
             mpgReq.SetStoreId(store_id);
             mpgReq.SetApiToken(api_token);
+            mpgReq.SetProcCountryCode("CA");
             mpgReq.SetTransaction(resaddcc);
-            mpgReq.SetStatusCheck(status_check);
             mpgReq.Send();
 
+            try
+            {
+                Receipt receipt = mpgReq.GetReceipt();
+                var success = receipt.GetResSuccess();
 
-            return Ok("Card Created");
+                if (success == "true")
+                    return Created(new Uri(Request.GetDisplayUrl() + "/" + receipt.GetDataKey()), saveCard);
+                else
+                    return BadRequest();
+            }
 
+            catch (Exception e)
+            {
+                return BadRequest(e.ToString());
+            }
         }
     }
 }
