@@ -5,5 +5,11 @@
     <RootNamespace>team5_payment</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="eSELECTplus_dotNet_API">
+      <HintPath>eSELECTplus_dotNet_API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 
 </Project>
