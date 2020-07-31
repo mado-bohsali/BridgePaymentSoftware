@@ -137,11 +137,16 @@ namespace team5_payment.Controllers
         }
 
         [HttpPost("retreive")]
-        public ActionResult Retreive()
+        public ActionResult Retreive(string data_key)
         {
+            /*
+             * For Testing: 
+             * 
+             * data_key = "Bcjvur5vxbOMzSaDH43BfFwS2"
+             */
+
             string store_id = "store5";
             string api_token = "yesguy";
-            string data_key = "Bcjvur5vxbOMzSaDH43BfFwS2";
             string processing_country_code = "CA";
             bool status_check = false;
 
