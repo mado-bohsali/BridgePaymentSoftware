@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using team5_payment.Data;
 
 namespace team5_payment
 {
@@ -26,6 +27,7 @@ namespace team5_payment
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<IPayment, MockPayment>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

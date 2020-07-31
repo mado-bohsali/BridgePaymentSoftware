@@ -28,19 +28,23 @@ namespace team5_payment.Controllers
             _repository = repository;
         }
 
-        [HttpPost("delete")]
-        public ActionResult<Dictionary<string,string>> DeleteCard(Card card)
+        [HttpPost("delete/{cardID}")]
+        public IActionResult DeleteCard(string cardID)
         {
             try
-            {   
-                response = _repository.deleteCard(card);
+            {
+                cardID = "PjVKjtEmc1FvFyjxHE4EwBMxi";
+                response = _repository.deleteCard(cardID);
+                return Ok(response);
             }
             catch (Exception exception)
             {
                 response = new Dictionary<string, string>
                 {
-                    {"Card ID", $"{exception.Message}"},
-                    {"Valut Success", $"{exception.Message}" }
+                    {"Card ID", $"{cardID}"},
+                    {"Valut Success", "Failed"},
+                    {"Exception", $"{exception.Message}"}
+                   
                 };
 
             }

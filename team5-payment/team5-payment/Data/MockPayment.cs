@@ -14,19 +14,21 @@ namespace team5_payment.Data
 
         public static HttpsPostRequest postRequest = new HttpsPostRequest();
 
-        public Dictionary<string, string> deleteCard(Card card)
+        public Dictionary<string, string> deleteCard(string cardID)
         {
-            Receipt receipt = postRequest.GetReceipt();
-
-            ResDelete resDelete = new ResDelete(receipt.GetDataKey());
-
             string store_id = "store5";
             string api_token = "yesguy";
-            string data_key = "PjVKjtEmc1FvFyjxHE4EwBMxi";
 
-            ResLookupMasked resLookupMasked = new ResLookupMasked();
-            resLookupMasked.SetDataKey(data_key);
-            card.cardID = data_key;
+            //Vault Look Up Masked transaction object
+            //returned to the merchant (via the Receipt object) when the profile is first registered.
+            //ResLookupMasked resLookupMasked = new ResLookupMasked();
+            //resLookupMasked.SetDataKey(cardID);
+
+            //To collect the applicable response details
+            Receipt receipt = postRequest.GetReceipt();
+
+            //Vault Delete transaction object
+            ResDelete resDelete = new ResDelete(cardID);
 
             string processing_country_code = "CA";
             bool status_check = false;
@@ -43,8 +45,8 @@ namespace team5_payment.Data
 
             var result = new Dictionary<string, string>
             {
-                {"Card ID", $"{data_key}" },
-                {"Vault Success", $"{card.cardID}" }
+                {"Card ID", $"{cardID}" },
+                {"Vault Success", $"{receipt.GetResSuccess()}" }
             };
 
             return result;
