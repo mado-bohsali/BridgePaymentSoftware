@@ -136,6 +136,7 @@ namespace team5_payment.Controllers
             }
         }
 
+        [HttpPost("retreive")]
         public ActionResult Retreive()
         {
             string store_id = "store5";
