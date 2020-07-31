@@ -39,9 +39,9 @@ namespace team5_payment.Data
             postRequest.SetApiToken(api_token);
             postRequest.SetTransaction(resDelete);
             postRequest.SetStatusCheck(status_check);
-            postRequest.Send();
             postRequest.SetTransaction(resDelete);
-                    
+            postRequest.Send();
+
 
             var result = new Dictionary<string, string>
             {
