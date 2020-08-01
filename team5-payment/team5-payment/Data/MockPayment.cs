@@ -52,6 +52,6 @@ namespace team5_payment.Data
             return result;
         }
 
-        
+
     }
 }

@@ -6,7 +6,7 @@ namespace team5_payment.Data
 {
     public interface IPayment
     {
-        
-        public Dictionary<string, string> deleteCard(string cardID); 
+
+        public Dictionary<string, string> deleteCard(string cardID);
     }
 }

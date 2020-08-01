@@ -17,9 +17,8 @@ namespace team5_payment.Controllers
 
     public class PaymentsController : ControllerBase
     {
-        private static readonly HttpClient client = new HttpClient();
         private static Dictionary<string, string> response = new Dictionary<string, string>();
-        
+
         private readonly IPayment _repository;
 
         public PaymentsController(IPayment repository)
@@ -43,7 +42,7 @@ namespace team5_payment.Controllers
                     {"Card ID", $"{cardID}"},
                     {"Valut Success", "Failed"},
                     {"Exception", $"{exception.Message}"}
-                   
+
                 };
 
             }
