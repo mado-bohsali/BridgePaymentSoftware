@@ -7,9 +7,16 @@
 
   <ItemGroup>
     <Reference Include="eSELECTplus_dotNet_API">
+<<<<<<< HEAD
       <HintPath>eSELECTplus_dotNet_API.dll</HintPath>
     </Reference>
   </ItemGroup>
+=======
+      <HintPath>..\..\..\..\eCommerce-Unified-API-dotNet-master\eSELECTplus_dotNet_API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+>>>>>>> TonyTest
 
 
   <ItemGroup>

@@ -1,8 +1,14 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "/Users/mohamad.elbohsaly/.dotnet/store/|arch|/|tfm|",
       "/Users/mohamad.elbohsaly/.nuget/packages"
+=======
+      "C:\\Users\\Tony\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Tony\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
+>>>>>>> TonyTest
     ]
   }
 }
