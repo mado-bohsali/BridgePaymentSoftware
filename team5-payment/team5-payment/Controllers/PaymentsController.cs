@@ -17,7 +17,6 @@ namespace team5_payment.Controllers
 
     public class PaymentsController : ControllerBase
     {
-        Completion completion = new Completion();
         private static readonly HttpClient client = new HttpClient();
         private static Dictionary<string, string> response = new Dictionary<string, string>();
         
