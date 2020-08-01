@@ -28,10 +28,18 @@ namespace team5_payment
         {
             services.AddControllers();
 <<<<<<< HEAD
+<<<<<<< HEAD
             services.AddScoped<IPayment, MockPayment>();
 =======
             services.AddScoped<IVaultRepo, MockVaultRepo>();
             services.AddScoped<IPurchaseRepo, MockPurchaseRepo>();
+>>>>>>> TonyTest
+=======
+            services.AddScoped<IVaultRepo, MockVaultRepo>();
+            services.AddScoped<IPurchaseRepo, MockPurchaseRepo>();
+=======
+            services.AddScoped<IPayment, MockPayment>();
+>>>>>>> eaa3decd84fe708ac473b4cee1291b9d6510dad8
 >>>>>>> TonyTest
         }
 
