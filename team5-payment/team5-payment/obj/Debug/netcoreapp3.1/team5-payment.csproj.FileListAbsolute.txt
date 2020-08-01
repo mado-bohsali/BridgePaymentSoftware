@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Tony\Desktop\Team5-Assignment\team5-assignment\team5-payment\team5-payment\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Tony\Desktop\Team5-Assignment\team5-assignment\team5-payment\team5-payment\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Tony\Desktop\Team5-Assignment\team5-assignment\team5-payment\team5-payment\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -20,3 +21,26 @@ C:\Users\Tony\Desktop\Team5-Assignment\team5-assignment\team5-payment\team5-paym
 C:\Users\Tony\Desktop\Team5-Assignment\team5-assignment\team5-payment\team5-payment\obj\Debug\netcoreapp3.1\team5-payment.dll
 C:\Users\Tony\Desktop\Team5-Assignment\team5-assignment\team5-payment\team5-payment\obj\Debug\netcoreapp3.1\team5-payment.pdb
 C:\Users\Tony\Desktop\Team5-Assignment\team5-assignment\team5-payment\team5-payment\obj\Debug\netcoreapp3.1\team5-payment.genruntimeconfig.cache
+=======
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/bin/Debug/netcoreapp3.1/team5-payment.deps.json
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/bin/Debug/netcoreapp3.1/team5-payment.runtimeconfig.json
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/bin/Debug/netcoreapp3.1/team5-payment.runtimeconfig.dev.json
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/bin/Debug/netcoreapp3.1/team5-payment.dll
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/bin/Debug/netcoreapp3.1/team5-payment.pdb
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/bin/Debug/netcoreapp3.1/eSELECTplus_dotNet_API.dll
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.csprojAssemblyReference.cache
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.AssemblyInfoInputs.cache
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.AssemblyInfo.cs
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.csproj.CoreCompileInputs.cache
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.MvcApplicationPartsAssemblyInfo.cache
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.RazorTargetAssemblyInfo.cache
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.csproj.CopyComplete
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/staticwebassets/team5-payment.StaticWebAssets.Manifest.cache
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/staticwebassets/team5-payment.StaticWebAssets.xml
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.dll
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.pdb
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.genruntimeconfig.cache
+>>>>>>> eaa3decd84fe708ac473b4cee1291b9d6510dad8
