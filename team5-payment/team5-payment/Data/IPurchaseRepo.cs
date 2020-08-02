@@ -9,5 +9,6 @@ namespace team5_payment.Data
     public interface IPurchaseRepo
     {
         public object ProcessSavedPayment(PaymentProccess paymentProcess);
+        public object ProcessPayment();
     }
 }

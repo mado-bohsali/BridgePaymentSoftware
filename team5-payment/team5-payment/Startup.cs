@@ -29,7 +29,8 @@ namespace team5_payment
             services.AddControllers();
             services.AddScoped<IVaultRepo, MockVaultRepo>();
             services.AddScoped<IPurchaseRepo, MockPurchaseRepo>();
-            //services.AddScoped<IPayment, MockPayment>();
+            services.AddScoped<IPayment, MockPayment>();
+            services.AddScoped<IPreAuthorization, MockPreAuthorization>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

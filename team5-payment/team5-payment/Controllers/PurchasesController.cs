@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
+using Moneris;
 using team5_payment.Data;
 using team5_payment.Models;
 
@@ -28,6 +29,23 @@ namespace team5_payment.Controllers
             try
             {
                 dynamic response = _repository.ProcessSavedPayment(paymentProcess);
+                return Ok(response);
+
+            }
+
+            catch (Exception e)
+            {
+                return BadRequest(e.ToString());
+            }
+        }
+
+        //POST: /api/purchases
+        [HttpPost]
+        public ActionResult ProcessPayment()
+        {
+            try
+            {
+                dynamic response = _repository.ProcessPayment();
                 return Ok(response);
 
             }
