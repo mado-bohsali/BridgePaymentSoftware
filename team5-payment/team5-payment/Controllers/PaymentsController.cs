@@ -33,17 +33,15 @@ namespace team5_payment.Controllers
         {
             try
             {
-                cardID = "PjVKjtEmc1FvFyjxHE4EwBMxi";
                 response = _repository.deleteCard(cardID);
-                return Ok(response);
             }
             catch (Exception exception)
             {
                 response = new Dictionary<string, string>
                 {
                     {"Card ID", $"{cardID}"},
-                    {"Valut Success", "Failed"},
-                    {"Exception", $"{exception.Message}"}
+                    {"Valut Success", $"{MockPayment.receipt.GetResSuccess()}"},
+                    {"Exception", $"{exception.StackTrace}"}
                    
                 };
 
