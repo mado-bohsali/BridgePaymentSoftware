@@ -38,5 +38,22 @@ namespace team5_payment.Controllers
                 return BadRequest(e.ToString());
             }
         }
+
+
+        [HttpPost("Retreive")]
+        public ActionResult RetrieveCard(string data_key)
+        {
+            try
+            {
+                dynamic response = _repository.RetreiveCard(data_key);
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+
+                return BadRequest(e.Message);
+            }
+        }
+
     }
 }

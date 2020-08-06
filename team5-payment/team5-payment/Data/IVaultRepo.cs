@@ -10,5 +10,6 @@ namespace team5_payment.Data
     public interface IVaultRepo
     {
         public object SaveCard(SaveCard saveCard);
+        public object RetreiveCard(string data_key);
     }
 }

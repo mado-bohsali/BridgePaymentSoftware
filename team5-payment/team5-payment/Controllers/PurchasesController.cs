@@ -57,7 +57,7 @@ namespace team5_payment.Controllers
         }
 
         //POST: /api/purchases/refund
-        [HttpPost]
+        [HttpPost("refund")]
         public ActionResult Refund()
         {
             throw new NotImplementedException();
