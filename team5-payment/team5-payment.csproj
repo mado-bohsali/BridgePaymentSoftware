@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>team5_payment</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="eSELECTplus_dotNet_API">
+      <HintPath>..\..\..\eCommerce-Unified-API-dotNet-master (1)\eCommerce-Unified-API-dotNet-master\eSELECTplus_dotNet_API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>
