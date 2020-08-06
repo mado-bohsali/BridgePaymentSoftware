@@ -18,3 +18,4 @@
 /Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.dll
 /Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.pdb
 /Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.genruntimeconfig.cache
+/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/obj/Debug/netcoreapp3.1/team5-payment.csprojAssemblyReference.cache

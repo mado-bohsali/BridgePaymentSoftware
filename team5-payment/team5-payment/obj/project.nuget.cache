@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "x6Qwhd6lUg+WpNC3X2yWbNltOZdFYCWC1YqHDVSmBFOrJrnNoPM5iOOPGAfFADhm+LDjVTvkubcJhlY/Ql33+w==",
+  "dgSpecHash": "jvPvn9r55Wctx2r1PFILP0Kv2mKYZ9nO4JCKx8GKnP+xL8ckEbaB8nq1YpKTCuhYYWunPania5vg6I42kQtecw==",
   "success": true,
   "projectFilePath": "/Users/mohamad.elbohsaly/Desktop/Rise Holding Group/SDIPP 502/Assignments/Assignment 2/team5-assignment/team5-payment/team5-payment/team5-payment.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/mohamad.elbohsaly/.nuget/packages/braintreehttp-dotnet/0.3.0/braintreehttp-dotnet.0.3.0.nupkg.sha512",
+    "/Users/mohamad.elbohsaly/.nuget/packages/paypal/2.0.0-rc2/paypal.2.0.0-rc2.nupkg.sha512"
+  ],
   "logs": []
 }

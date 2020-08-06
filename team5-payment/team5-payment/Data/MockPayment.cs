@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Moneris;
+using team5_payment.Models;
+using System.Net.Http;
+using System.Net;
 
 namespace team5_payment.Data
 {
@@ -16,13 +19,8 @@ namespace team5_payment.Data
 
         public Dictionary<string, string> deleteCard(string cardID)
         {
-            string store_id = "store5";
-            string api_token = "yesguy";
-
-            //Vault Look Up Masked transaction object
-            //returned to the merchant (via the Receipt object) when the profile is first registered.
-            //ResLookupMasked resLookupMasked = new ResLookupMasked();
-            //resLookupMasked.SetDataKey(cardID);
+            
+            //--------
 
             //Vault Delete transaction object
             ResDelete resDelete = new ResDelete(cardID);
@@ -31,7 +29,8 @@ namespace team5_payment.Data
 
             string processing_country_code = "CA";
             bool status_check = false;
-
+            string store_id = "store5";
+            string api_token = "yesguy";
             postRequest.SetProcCountryCode(processing_country_code);
             postRequest.SetTestMode(true); //false or comment out this line for production transactions
             postRequest.SetStoreId(store_id);
@@ -45,13 +44,21 @@ namespace team5_payment.Data
 
             var result = new Dictionary<string, string>
             {
-                {"Card ID", "DxwdemrvfnoXO1HhmRikfw3gA" },
+                {"Card ID", $"{receipt.GetDataKey()}" },
                 {"Vault ResSuccess", $"{receipt.GetResSuccess()}" }
             };
 
             return result;
         }
 
-        
+        HttpWebResponse IPayment.deletePayPalCard(string credit_card_id)
+        {
+            string sandboxAPIURL = "https://api.sandbox.paypal.com/v2/vault/credit-cards/"+$"{credit_card_id}";
+            WebRequest request = WebRequest.Create(sandboxAPIURL);
+            request.Method = "DELETE";
+
+            return (HttpWebResponse)request.GetResponse();
+        }
+
     }
 }
