@@ -9,5 +9,7 @@ namespace team5_payment.Data
     public interface IPreAuthorization
     {
         public object PreAuthWithVault(PaymentProccess paymentProcess);
+        public object PreAuth();
+        public object PreAuthCompletion(string txn);
     }
 }

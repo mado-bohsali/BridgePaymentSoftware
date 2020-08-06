@@ -20,6 +20,7 @@ namespace team5_payment.Controllers
             _repository = repository;
         }
 
+        //POST: api/preauthorizations/vault
         [HttpPost("Vault")]
         public ActionResult PreAuthWithVault(PaymentProccess paymentProcess)
         {
@@ -33,6 +34,19 @@ namespace team5_payment.Controllers
 
                 return BadRequest(e.Message);
             }
+        }
+
+        //POST: api/preauthorizations
+        public ActionResult PreAuth()
+        {
+            throw new NotImplementedException();
+        }
+
+        //POST: api/preauthorizations/completion?txn=
+        [HttpPost("Completion")]
+        public ActionResult PreAuthCompletion(string txn)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -115,5 +115,10 @@ namespace team5_payment.Data
 
 
         }
+
+        public object Refund()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

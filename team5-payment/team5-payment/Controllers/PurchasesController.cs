@@ -55,5 +55,12 @@ namespace team5_payment.Controllers
                 return BadRequest(e.ToString());
             }
         }
+
+        //POST: /api/purchases/refund
+        [HttpPost]
+        public ActionResult Refund()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

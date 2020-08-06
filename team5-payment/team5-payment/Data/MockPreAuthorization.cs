@@ -25,7 +25,6 @@ namespace team5_payment.Data
             string amount = paymentProccess.Amount;
             string data_key = paymentProccess.DataKey;
 
-
             CofInfo cof = new CofInfo();
             cof.SetPaymentIndicator("U");
             cof.SetPaymentInformation("2");
@@ -50,14 +49,23 @@ namespace team5_payment.Data
             Receipt receipt = mpgReq.GetReceipt();
 
             var response = new { Id = receipt.GetDataKey(), Success = Boolean.Parse(receipt.GetResSuccess()), Txn = receipt.GetTxnNumber() };
-
+            
             if (response.Success)
                 return response;
             else
                 throw new Exception();
 
 
+        }
 
+        public object PreAuth()
+        {
+            throw new NotImplementedException();
+        }
+
+        public object PreAuthCompletion(string txn)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -10,5 +10,6 @@ namespace team5_payment.Data
     {
         public object ProcessSavedPayment(PaymentProccess paymentProcess);
         public object ProcessPayment();
+        public object Refund();
     }
 }
